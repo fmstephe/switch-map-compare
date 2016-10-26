@@ -1,0 +1,8 @@
+To use these benchmarks you have to generate code for each run.
+
+from this directory you should
+
+	cd generate/
+	go run main.go -s 10 > ../main.go
+	cd ../
+	go test -bench=.*
